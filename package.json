@@ -1,0 +1,29 @@
+{
+  "name": "auth1-project",
+  "version": "1.0.0",
+  "description": "- Authentication.\r - Express Middleware.\r - Password Hashing.\r - Sessions\r - Cookies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "^1.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Katrina-Dierking/node-auth1-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Katrina-Dierking/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/Katrina-Dierking/node-auth1-project#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.9",
+    "node": "^13.8.0",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
